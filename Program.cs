@@ -23,6 +23,7 @@ namespace FourElements
             Application.Run(new Form1());
 
             Cfg = new GroupConfig();
+            Cfg.ReadConfig("Groups.ini");
         }
 
     }
